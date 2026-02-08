@@ -1,0 +1,23 @@
+{
+  "name": "budget-formula",
+  "version": "1.0.0",
+  "description": "Personal Budget Tracking Web Application",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm start --workspace=server"
+  },
+  "keywords": [
+    "budget",
+    "finance",
+    "personal",
+    "tracker"
+  ],
+  "author": "Kartik Upadhyay",
+  "license": "MIT"
+}
